@@ -9,8 +9,8 @@ a {
     text-decoration: none;
     color: inherit;
   }
-  
 #title{
+
     margin-top: 2%;
     display: flex;
     justify-content: space-around;
@@ -22,7 +22,7 @@ a {
 }
 #div_nav_azul{
     margin-top: 1%;
-    position: fixed;
+    position: absolute;
     background: #000a2f;
     color: #ffffff;
     width: 100%;
@@ -38,7 +38,6 @@ a {
 .li_hover:hover{
     color: #FFCC00;
 }
-
 .div_nav_superior ul{
     display: flex;
     justify-content: center;
